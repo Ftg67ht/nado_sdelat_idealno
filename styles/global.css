@@ -8,12 +8,12 @@ html {
   height: 100%;
 }
 
-body {
-  width: 1900px;
+/* body {
+  min-width: 800px;
   margin: 0 auto;
   font-family: sans-serif;
   height: inherit;
-}
+} */
 
 h1,
 h2,

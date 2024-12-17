@@ -1,0 +1,14 @@
+.page {
+width: 800px;
+}
+
+.content {
+  min-width: 100px;
+}
+
+.video-content {
+  width: inherit;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
