@@ -5,16 +5,46 @@
   border: 2px solid blue;
 }
 
-.header-main {
-  
+.page__heading {
+}
+
+/*---------------h1-----*/
+.page__heading-main {
+  margin-top: 20px;
+  position: relative;
+  height: 300px;
+}
+
+.page__heading-main::after {
+  content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  width: 50%;
+  text-wrap: wrap;
+}
+
+.page__heading-main:hover::after {
+  opacity: 0.5;
+  visibility: visible;
+}
+
+.page__heading-main:hover::before {
 }
 
 .content {
-  
 }
 
-.content-cover {
-  
+.cover-video {
 }
 
 .video-content {
